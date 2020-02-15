@@ -21,73 +21,73 @@ This consentrate direction of types to backup data. This concentrate direction o
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Properties>
-<!--
-SourceFolders - element of list of directories for backup
--->
-<SourceFolders>
-<!--
-tag directory - consist of inner text value of absolute path to source folder and attribute 'archive_files'
-archive_files - a boolean value true/false attribute:
-TRUE - creates a zip archive file named as last folder name;
-FALSE - copy files directly from source folder to backup storage;
-NB!
-in directory tree last folder name must be unique in list;
-source folder may contains from sub-folders;
--->
-<directory archive_files="true">/home/library/3K_library/3K_FUJI_P1</directory>
-<directory archive_files="true">/home/library/3K_library/3K_FUJI_P1_9S</directory>
-<directory archive_files="true">/home/library/3K_library/3K_FUJI_P2</directory>
-<directory archive_files="false">/home/library/3K_library/3K_FUJI_P2_9S</directory>
-</SourceFolders>
+   <!--
+   SourceFolders - element of list of directories for backup
+   -->
+   <SourceFolders>
+      <!--
+         tag directory - consist of inner text value of absolute path to source folder and attribute 'archive_files'
+         archive_files - a boolean value true/false attribute:
+            TRUE - creates a zip archive file named as last folder name;
+            FALSE - copy files directly from source folder to backup storage;
+            NB!
+               in directory tree last folder name must be unique in list;
+               source folder may contains from sub-folders;
+      -->
+      <directory archive_files="true">/home/library/3K_library/3K_FUJI_P1</directory>
+      <directory archive_files="true">/home/library/3K_library/3K_FUJI_P1_9S</directory>
+      <directory archive_files="true">/home/library/3K_library/3K_FUJI_P2</directory>
+      <directory archive_files="false">/home/library/3K_library/3K_FUJI_P2_9S</directory>
+   </SourceFolders>
 
-<!-- 
-BackupExtensions - element of list of required file's extensions for store to backup;
-active - a boolean value true/false attribute:
-TRUE - uses for filtering files by extension;
-FALSE - does not filtering files by extension;
--->
-<BackupExtensions active="true">
-<!--
-extension - consist of text of file's extensions without any other symbols;
--->
-<extension>md</extension>
-<extension>mf</extension>
-<extension>bm</extension>
-<extension>csv</extension>
-<extension>svg</extension>
-</BackupExtensions>
+   <!-- 
+      BackupExtensions - element of list of required file's extensions for store to backup;
+      active - a boolean value true/false attribute:
+         TRUE - uses for filtering files by extension;
+         FALSE - does not filtering files by extension;
+   -->
+   <BackupExtensions active="true">
+      <!--
+         extension - consist of text of file's extensions without any other symbols;
+      -->
+      <extension>md</extension>
+      <extension>mf</extension>
+      <extension>bm</extension>
+      <extension>csv</extension>
+      <extension>svg</extension>
+   </BackupExtensions>
 
-<!--
-The 'checksum' tag consist of boolean value true/false.
-TRUE - uses for check out the HASH the checksum of the file
-   if file were changed the HASH of checksum will be different from last entry
-   and file will be saved to backup store without overwriting;
-FALSE - always saves all exists files and subdirectories;
--->
-<checksum>true</checksum>
+   <!--
+      The 'checksum' tag consist of boolean value true/false.
+         TRUE - uses for check out the HASH the checksum of the file
+            if file were changed the HASH of checksum will be different from last entry
+            and file will be saved to backup store without overwriting;
+         FALSE - always saves all exists files and subdirectories;
+   -->
+   <checksum>true</checksum>
 
-<!--
-Java related technologies to store the configurable parameters .properties file
--->
-<checksumfileanme>checksum.properties</checksumfileanme>
+   <!--
+      Java related technologies to store the configurable parameters .properties file
+   -->
+   <checksumfileanme>checksum.properties</checksumfileanme>
 
-<!--
-JSON is an open-standard file format or data interchange format to store latest changed file
--->
-<RestoreJSON>restoredat.json</RestoreJSON>
-<RestoreDirectory>/tmp/restore</RestoreDirectory>
+   <!--
+      JSON is an open-standard file format or data interchange format to store latest changed file
+   -->
+   <RestoreJSON>restoredat.json</RestoreJSON>
+   <RestoreDirectory>/tmp/restore</RestoreDirectory>
 
-<!--
-BackupDirections - element of list of full backup storage folder path
--->
-<BackupDirections>
-<!--
-directory - the inner text of full backup storage folder path;
-Attention!
-As a restore directory by default uses only first element from several.
--->
-<directory>/home/mnt/sdb1/backup/libraries_storage</directory>
-<directory>/home/mnt/sdd2/backup/libraries_storage</directory>
-</BackupDirections>
+   <!--
+      BackupDirections - element of list of full backup storage folder path
+   -->
+   <BackupDirections>
+      <!--
+         directory - the inner text of full backup storage folder path;
+         Attention!
+            As a restore directory by default uses only first element from several.
+      -->
+      <directory>/home/mnt/sdb1/backup/libraries_storage</directory>
+      <directory>/home/mnt/sdd2/backup/libraries_storage</directory>
+   </BackupDirections>
 </Properties>
 ```

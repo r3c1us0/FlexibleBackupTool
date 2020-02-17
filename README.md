@@ -1,16 +1,16 @@
 ## Introduction  
 NAME   
-&#8204;&#8204;&#8204;&#8204; Flexible Backup Tool   
+&nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool   
 
 SYNOPSIS   
-&#8204;&#8204;&#8204;&#8204; $java -jar FlexibleBackupTool-2.1.#-shaded.jar [ OPTIONS ]   
+&nbsp;&nbsp;&nbsp;&nbsp;$java -jar FlexibleBackupTool-2.1.#-shaded.jar [ OPTIONS ]   
 
 DESCRIPTION   
-&#8204;&#8204;&#8204;&#8204; Flexible Backup Tool is a java console application for directory list backup.   
-&#8204;&#8204;&#8204;&#8204; Application does not work without the path to folder of required files.   
-&#8204;&#8204;&#8204;&#8204; Required files:   
-&#8204;&#8204;&#8204;&#8204;&#8204;&#8204;&#8204;&#8204; `settings.xml`; `log4j.properties`;   
-&#8204;&#8204;&#8204;&#8204; Other files such as `checksum.properties` and `restoredat.json` will be created on a first running.   
+&nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool is a java console application for directory list backup.   
+&nbsp;&nbsp;&nbsp;&nbsp;Application does not work without the path to folder of required files.   
+&nbsp;&nbsp;&nbsp;&nbsp;Required files:   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`settings.xml`; `log4j.properties`;   
+&nbsp;&nbsp;&nbsp;&nbsp;Other files such as `checksum.properties` and `restoredat.json` will be created on a first running.   
 
 OPTIONS   
 `workspace=/path/to/read_write/workspace/folder` - this folder must have required settings files;   

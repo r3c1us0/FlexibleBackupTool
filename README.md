@@ -8,20 +8,19 @@ SYNOPSIS
 DESCRIPTION   
 &nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool is a java console application for directory list backup.   
 &nbsp;&nbsp;&nbsp;&nbsp;Application does not work without the path to folder of required files.   
-&nbsp;&nbsp;&nbsp;&nbsp;Required files:   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`settings.xml`; `log4j.properties`;   
+&nbsp;&nbsp;&nbsp;&nbsp;Required files: `settings.xml`; `log4j.properties`;   
 &nbsp;&nbsp;&nbsp;&nbsp;Other files such as `checksum.properties` and `restoredat.json` will be created on a first running.   
 
 OPTIONS   
-`workspace=/path/to/read_write/workspace/folder` - this folder must have required settings files;   
-`restore` - a key works together with workspace to restore previous backup files last time modified;   
+&nbsp;&nbsp;&nbsp;&nbsp;`workspace=/path/to/read_write/workspace/folder` - this folder must have required settings files;   
+&nbsp;&nbsp;&nbsp;&nbsp;`restore` - a key works together with workspace to restore previous backup files last time modified;   
+
 EXAMPLE   
-Start backup console command   
+&nbsp;&nbsp;&nbsp;&nbsp;Start backup console command   
 ```bash
 $java -jar FlexibleBackupTool-2.1.#-shaded.jar workspace=/path/to/read_write/workspace/folder
-```
-   
-Restore backup console command   
+```   
+&nbsp;&nbsp;&nbsp;&nbsp;Restore backup console command   
 ```bash
 $java -jar FlexibleBackupTool-2.1.#-shaded.jar workspace=/path/to/read_write/workspace/folder restore
 ```

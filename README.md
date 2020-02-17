@@ -3,7 +3,7 @@ NAME
 &nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool   
 
 SYNOPSIS   
-&nbsp;&nbsp;&nbsp;&nbsp;$java -jar FlexibleBackupTool-2.1.#-shaded.jar [ OPTIONS ]   
+&nbsp;&nbsp;&nbsp;&nbsp;$java -jar FlexibleBackupTool-2.1.&#35;-shaded.jar [ OPTIONS ]   
 
 DESCRIPTION   
 &nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool is a java console application for directory list backup.   
@@ -18,11 +18,11 @@ OPTIONS
 EXAMPLE   
 &nbsp;&nbsp;&nbsp;&nbsp;Start backup console command   
 ```bash
-$java -jar FlexibleBackupTool-2.1.#-shaded.jar workspace=/path/to/read_write/workspace/folder
+$java -jar FlexibleBackupTool-2.1.&#35;-shaded.jar workspace=/path/to/read_write/workspace/folder
 ```   
 &nbsp;&nbsp;&nbsp;&nbsp;Restore backup console command   
 ```bash
-$java -jar FlexibleBackupTool-2.1.#-shaded.jar workspace=/path/to/read_write/workspace/folder restore
+$java -jar FlexibleBackupTool-2.1.&#35;-shaded.jar workspace=/path/to/read_write/workspace/folder restore
 ```
 
 

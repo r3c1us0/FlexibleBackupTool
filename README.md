@@ -26,7 +26,11 @@ $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/wor
 ```
 ### Usage   
 This is a Java open source [eclipse IDE](https://www.eclipse.org/downloads/) project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html). The Project Object Model 'pom.xml' created to packaging project to the executable JAR file with required libraries inside.   
-Before running the code you need to define the full path to workspace folder with the required by application files on your machine. An example of workspace folder located in repository named ['backup-workspace'](https://github.com/r3c1us0/FlexibleBackupTool/tree/master/backup-workspace). 
+Before running the code you need to define the full path to workspace folder with the required by application files on your machine. An example of workspace folder located in repository named ['backup-workspace'](https://github.com/r3c1us0/FlexibleBackupTool/tree/master/backup-workspace). The workspace is consist of two file in the beginning: `settings.xml`; `log4j.properties`;   
+`settings.xml` - this is a main configuration file for targetting backup/restore points. Must have readable permission.   
+`log4j.properties` - this is a [LOG4J](https://www.tutorialspoint.com/log4j/log4j_quick_guide.htm) configuration file which keeps properties in key-value pairs. Please do not rename the key name 'log4j.appender.LogFileAppender' because of key named 'log4j.appender.LogFileAppender.file' will be edited by application in Java runtime. This is why the file must have writable permission.   
+The application as a project or as an executable JAR file does not start without main attribute 'workspace='. The argument works as a key-value pair where the value is a reference on full path to workspace folder with read/write permissions settings.
+
 You are free to make changes in source code, rename project and compile the code for your needs on your own PC. 
 
 

@@ -25,7 +25,7 @@ $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/wor
 $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/workspace/folder restore
 ```
 ### Usage   
-This is a Java open source eclipse project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html).
+This is a Java open source [eclipse IDE](https://www.eclipse.org/downloads/) project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html). 
 
 
 ### settings.xml IN DETAILS

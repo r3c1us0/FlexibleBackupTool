@@ -26,7 +26,7 @@ $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/wor
 ```
 ### Usage   
 This is a Java open source [eclipse IDE](https://www.eclipse.org/downloads/) project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html).   
-proworkspace folder.
+Before the run code you need to define the full path to workspace folder with the required by application files. An example of workspace folder located in repository named ['backup-workspace']().
 You are free to make changes in source code, rename project and compile the code for your needs on your own PC. 
 
 

@@ -25,11 +25,13 @@ $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/wor
 $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/workspace/folder restore
 ```
 ### Usage   
-This is a Java open source [eclipse IDE](https://www.eclipse.org/downloads/) project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html). 
+This is a Java open source [eclipse IDE](https://www.eclipse.org/downloads/) project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html).   
+proworkspace folder.
+You are free to make changes in source code, rename project and compile the code for your needs on your own PC. 
 
 
 ### settings.xml IN DETAILS
-settings.xml is main configrurate file before start to use this console appllication.
+settings.xml is main configurate file before start to use this console appllication.
 This consentrate direction of types to backup data. This concentrate direction of types to backup data.
 
 ```xml

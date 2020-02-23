@@ -17,31 +17,17 @@ OPTIONS
 
 EXAMPLE   
 &nbsp;&nbsp;&nbsp;&nbsp;Start backup console command   
-```bash
+```console
 $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/workspace/folder
 ```   
 &nbsp;&nbsp;&nbsp;&nbsp;Restore backup console command   
-```bash
+```console
 $java -jar FlexibleBackupTool-2.1.N-shaded.jar workspace=/path/to/read_write/workspace/folder restore
 ```
+### Usage   
+This is a Java open source eclipse project managed by [Maven](https://maven.apache.org/guides/getting-started/index.html).
 
 
-### Title text
-Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. 
-
-```bash
-arp -a 
-```
-### Usage
-Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula.
-```console
-$ bundle exec bin/github-linguist --breakdown
-68.57%  Ruby
-22.90%  C
-6.93%   Go
-1.21%   Lex
-0.39%   Shell
-```
 ### settings.xml IN DETAILS
 settings.xml is main configrurate file before start to use this console appllication.
 This consentrate direction of types to backup data. This concentrate direction of types to backup data.
@@ -50,7 +36,7 @@ This consentrate direction of types to backup data. This concentrate direction o
 <?xml version="1.0" encoding="UTF-8"?>
 <Properties>
    <!--
-   SourceFolders - element of list of directories for backup
+      SourceFolders - element of list of directories for backup
    -->
    <SourceFolders>
       <!--

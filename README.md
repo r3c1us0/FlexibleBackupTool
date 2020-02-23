@@ -8,7 +8,7 @@ SYNOPSIS
 DESCRIPTION   
 &nbsp;&nbsp;&nbsp;&nbsp;Flexible Backup Tool is a java console application for directory list backup.   
 &nbsp;&nbsp;&nbsp;&nbsp;Application does not work without the path to folder of required files.   
-&nbsp;&nbsp;&nbsp;&nbsp;Required files: `settings.xml`; `log4j.properties`;   
+&nbsp;&nbsp;&nbsp;&nbsp;Required files: [`settings.xml`](https://github.com/r3c1us0/FlexibleBackupTool/blob/master/README.md#settingsxml-in-details); `log4j.properties`;   
 &nbsp;&nbsp;&nbsp;&nbsp;Other files such as `checksum.properties` and `restoredat.json` will be created on a first running.   
 
 OPTIONS   

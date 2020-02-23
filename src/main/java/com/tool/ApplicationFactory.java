@@ -1291,7 +1291,7 @@ public class ApplicationFactory extends ApplicationSystemTray {
 		terminalHelpMsg.append("\t\t$java -jar FlexibleBackupTool-####.jar workspace=/path/to/read_write/folder\r\n");
 		terminalHelpMsg.append("\tRestore backup\r\n");
 		terminalHelpMsg.append("\t\t$java -jar FlexibleBackupTool-####.jar workspace=/path/to/read_write/folder restore\r\n");
-		terminalHelpMsg.append("\r\nFor more details github link.");
+		terminalHelpMsg.append("\r\nFor more details github link - https://github.com/r3c1us0/FlexibleBackupTool");
 		terminalHelpMsg.append("\r\n");
 		System.out.println(terminalHelpMsg.toString());		
 	}
